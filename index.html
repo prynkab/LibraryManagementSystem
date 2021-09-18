@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budjet Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cover">
+        <h1>Welcome to Library Management System</h1>
+        <h2>Discover something new</h2>
+        <button id="login"><a href="#">Login</a></button>
+    </div>
+    <div id="navbar">
+        <a  class="active" href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Events</a>
+        <a href="#">Login</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="content">
+      <div class="about">
+        <div class="header">
+          <h1>Digital Library Manangement System</h1>
+          <h2>Your online Library Management System available 24/7, from home and on the go</h2>
+        </div>
+        <div class="container">
+          <img src="read.jpg">
+          <h1>Manage and update database anywhere, anytime</h1>
+          <h2>Easy to use system, and help readers reach more books and their passion. Easy to function and help readers avails offers and Maintain their library card, digitally.</h1>
+        </div>
+        <div class="container">
+          <img src="work.jfif">
+          <h1>Convenient work life environment</h1>
+          <h2>Secure system to help employers update and maintain database much easily. Helps keep records.</h2>
+        </div>
+      </div>
+      <br>
+      <div class="grand_parent">
+        <h1>Events</h1>
+        <div class="parents">
+            <div class="child">
+                <time datetime="2021-09-18" class="icon">
+                  <em>September</em>
+                  <strong>Saturday</strong>
+                  <span>18</span>
+                </time>
+                <h3>Outdoor Family Story Time</h3>
+                <p>Sep 18th | 10:30am - 11:00am</p>
+                <p>George Latimer Central Library <a href="#">Register</a></p>
+            </div>
+            <div class="child">
+              <time datetime="2021-09-18" class="icon">
+                <em>September</em>
+                <strong>Saturday</strong>
+                <span>18</span>
+              </time>
+              <h3>Talk Like a Pirate Day</h3>
+              <p>Sep 18th | 1:00pm - 4:00pm</p>
+              <p>Dayton's Bluff <a href="#">Register</a></p>
+            </div>
+            <div class="child">
+              <time datetime="2021-09-18" class="icon">
+                <em>September</em>
+                <strong>Saturday</strong>
+                <span>18</span>
+              </time>
+              <h3>Fabulous Cosplay Fabric Giveaway!</h3>
+              <p>Sep 18th | 2:00pm - 4:00pm</p>
+              <p>George Latimer Central Library <a href="#">Register</a></p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+</body>
+</html>

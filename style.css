@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garamond', Serif;
+}
+.cover{
+    background-image: url(cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    overflow: hidden;
+}
+.cover h1{
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 40px;
+}
+.cover h2{
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Josefine-Sans' ,serif;
+    left: 35%;
+    top: 50%;
+    font-size: 35px;  
+}
+.cover button{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid rgb(255, 255, 255);
+    background: rgba(252, 214, 1, 0);
+    border-radius: 3px;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cover button:hover{
+    background: rgb(252, 185, 1);
+    border: none;
+    transition: 1s ease;
+}
+#login{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+#login a{
+    text-decoration: none;
+    color: white;
+}
+#login a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 780px){
+    .cover h1{
+        font-size: 20px;
+        position: absolute;
+        left: 15%;
+        top: 40%;
+        font-size: 30px;
+    }
+    #login{
+        position: absolute;
+        left: 40%;
+        top: 60%;
+    }
+    .cover h2{
+        top: 53%;
+        left: 30%;
+        font-size: 20px;
+    }
+    .grand_parent{
+        height:auto; 
+    }
+    .about{
+        flex-wrap: wrap;
+    }
+}
+
+#navbar {
+    overflow: hidden;
+    background: black;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+  
+#navbar a:hover {
+    background-color: rgb(252, 185, 1);
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #063180;
+    color: white;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(books.jfif);
+    background-size: cover;
+    border-radius: 5px;
+}
+.container{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.397);
+}
+.container h1{
+    font-family: sans-serif;
+}
+.container img{
+    width: 400px;
+    height: 200px;
+}
+.header{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.397);
+}
+.header h1{
+    font-family: sans-serif;
+}
+.grand_parent{ 
+    color: #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(event.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+.grand_parent h1{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.parents{ 
+    height: auto; 
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    transition: all 0.2 linear;
+}
+.child{
+    width: 250px;
+    height: 210px;
+    padding: 5px;
+    background:#81ecec7e;
+    box-shadow: 0 0 20px #bac3c3;
+    align-items: center;
+    flex:1 1 200px;
+    margin: 20px;
+    text-align: center;
+}
+.child h3{
+    position: relative;
+    align-items: center;
+    top: 20%;
+    transition: 1s ease;
+}
+.child p{
+    display: none;
+    position: relative;
+    transition: 0.5s;
+}
+.child:hover p{
+    display: block;
+    top: 15%;
+}
+.child:hover h3{
+    top: 10%;
+}
+
+.child:first-child{
+    background: #ffbf7691;
+}
+.child:last-child{
+    background: #ff7979b2;
+}
+time.icon
+{
+  font-size: 10px; 
+  display: block;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+}
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+time.icon strong
+{
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+time.icon em
+{
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+time.icon span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.2em;
+  color: #2f2f2f;
+}
