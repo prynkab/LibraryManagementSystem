@@ -251,3 +251,55 @@ time.icon span
   padding-top: 0.2em;
   color: #2f2f2f;
 }
+.contact-form{
+    height: auto; 
+    margin: auto;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    background: linear-gradient(55deg, rgb(255, 238, 0), rgb(255, 174, 0) );
+}
+.title{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 40px;
+}
+.form{
+    padding: 20px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+.form button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 79, 79);
+    display:block;
+    width: 100%;
+    cursor: pointer;
+}
