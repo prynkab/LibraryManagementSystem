@@ -59,7 +59,7 @@
     color: black;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 780px){
     .cover h1{
         font-size: 20px;
         position: absolute;
@@ -69,8 +69,8 @@
     }
     #login{
         position: absolute;
-        left: 40%;
-        top: 60%;
+        left: 35%;
+        top: 68%;
     }
     .cover h2{
         top: 59%;
