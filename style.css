@@ -210,15 +210,13 @@
 }
 .child p{
     display: none;
-    position: relative;
     transition: 0.5s;
 }
 .child:hover p{
     display: block;
-    top: 15%;
 }
 .child:hover h3{
-    top: 10%;
+    top: 3%;
 }
 
 .child:first-child{
