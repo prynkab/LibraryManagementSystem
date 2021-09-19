@@ -95,6 +95,10 @@
 	.grand_parent h1{
     	font-size: 20px;
 	}
+	.container img{
+    	width: 300px;
+    	height: 100px;
+	}
 }
 
 #navbar {
