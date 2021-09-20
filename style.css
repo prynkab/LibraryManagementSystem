@@ -25,9 +25,9 @@
     position: absolute;
     font-weight: bold;
     font-family: 'Josefine-Sans' ,serif;
-    left: 30%;
-    top: 60%;
-    font-size: 16px; 
+    left: 35%;
+    top: 50%;
+    font-size: 2em; 
 }
 .cover button{
     letter-spacing: 2px;
@@ -48,8 +48,8 @@
 }
 #login{
     position: absolute;
-    left: 40%;
-    top: 70%;
+    left: 45%;
+    top: 60%;
 }
 #login a{
     text-decoration: none;
@@ -70,12 +70,12 @@
     #login{
         position: absolute;
         left: 40%;
-        top: 60%;
+        top: 70%;
     }
     .cover h2{
-        top: 53%;
-        left: 30%;
-        font-size: 8px;
+        top: 58%;
+        left: 18%;
+        font-size: 2em;
     }
     .grand_parent{
         height:auto; 
@@ -93,9 +93,6 @@
         margin-right: 50px;
         margin-bottom: 10px;
     }
-    #navbar a{
-       font-size: 8px;
-    }
 }
 
 #navbar {
@@ -111,7 +108,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.8em;
     color: white;
 }
   
@@ -190,14 +187,16 @@
     transition: all 0.2 linear;
 }
 .child{
-    width: 250px;
+    width: 200px;
     height: 210px;
     padding: 5px;
     background:#81ecec7e;
     box-shadow: 0 0 20px #bac3c3;
     align-items: center;
     flex:1 1 200px;
-    margin: 5px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .child h3{
