@@ -25,9 +25,9 @@
     position: absolute;
     font-weight: bold;
     font-family: 'Josefine-Sans' ,serif;
-    left: 35%;
-    top: 50%;
-    font-size: 2em; 
+    left: 30%;
+    top: 60%;
+    font-size: 1em; 
 }
 .cover button{
     letter-spacing: 2px;
@@ -48,8 +48,8 @@
 }
 #login{
     position: absolute;
-    left: 45%;
-    top: 60%;
+    left: 40%;
+    top: 70%;
 }
 #login a{
     text-decoration: none;
