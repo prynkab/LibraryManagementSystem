@@ -95,8 +95,8 @@
 	.grand_parent h1{
     	font-size: 5px;
 	}
-	.container img{
-    	width: 200px;
+	.header img{
+    	width: 150px;
     	height: 100px;
 	}
 }
@@ -156,7 +156,7 @@
 .container h1{
     font-family: sans-serif;
 }
-.container img{
+.header img{
     width: 400px;
     height: 200px;
 }
