@@ -27,7 +27,7 @@
     font-family: 'Josefine-Sans' ,serif;
     left: 30%;
     top: 60%;
-    font-size: 2em; 
+    font-size: 16px; 
 }
 .cover button{
     letter-spacing: 2px;
@@ -75,7 +75,7 @@
     .cover h2{
         top: 53%;
         left: 30%;
-        font-size: 2em;
+        font-size: 8px;
     }
     .grand_parent{
         height:auto; 
