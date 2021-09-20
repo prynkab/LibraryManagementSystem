@@ -203,7 +203,6 @@
     text-align: center;
 }
 .child h3{
-    position: relative;
     align-items: center;
     top: 20%;
     transition: 1s ease;
