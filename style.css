@@ -86,7 +86,7 @@
 	font-size:10px;
 	}
 	.container h2{
-	font-size: 10px;
+	font-size: 15px;
 	}
 	.child{
     	width: 100px;
@@ -95,7 +95,7 @@
 	.grand_parent h1{
     	font-size: 5px;
 	}
-	.header img{
+	.container img{
     	width: 150px;
     	height: 100px;
 	}
